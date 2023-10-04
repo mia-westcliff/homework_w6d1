@@ -1,7 +1,7 @@
 header {
-    background: url(images/central_park.jpg) 0 -200px no-repeat;  /* place image as background */
-    background-size: 1500px;
-    /*background-position: 0 -200px;*/
+    background: url(images/central_park.jpg) no-repeat;  /* place image as background */
+    background-size: cover;
+    background-position: center center;
     /*background-repeat: no-repeat;*/
     height: 400px; /* give header some height to display the background image */
     padding-top: 100px;

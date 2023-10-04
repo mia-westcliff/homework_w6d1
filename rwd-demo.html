@@ -4,7 +4,30 @@
 <title>My First Web Page</title>
 
 <link rel="stylesheet" href="demo.css">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* smaller than 600px */
+@media (max-width: 600px) {
+  main { margin: 20px; }
+  .cards { display: block; }
+  .card { width: 100%; }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+/* higher than 600px */
+@media (min-width: 600px) {
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 48%; 
+    margin: 1%;
+  }
+}
+</style>
 </head> 	
 <body>
 
